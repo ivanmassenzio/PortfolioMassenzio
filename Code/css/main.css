@@ -15,7 +15,6 @@ body{
 
 .container-home{
     background-color: grey;
-    /* height: 100vh;     */
     padding: 300px 0;    
 }
 .text-home{
@@ -32,27 +31,6 @@ body{
     width: 25%;
     border-top: 3px solid #d4f21b;
 }
-.navbar{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-   
-}
-.brand{
-    display: flex;
-    flex-wrap: wrap;
-    /* color: #fff; */
-    font-weight: 100;
-    font-size: 20px;
-    margin-left: 5px;
-}
-
-.menu a{
-    /* color: #fff; */
-    font-size: 15px;
-    text-decoration: none; 
-    margin-left: 5px;
-}
 /* About */
 .container-about{
     background: rgb(182, 176, 176);
@@ -65,19 +43,40 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
+.btn {
+    font-family: karla, sans-serif;
+    position: relative;
+    display: inline-block;
+    border: .2em solid #d4f21b;
+    border-radius: 0;
+    padding: 1em 2.4em;
+    font-size: .875em;
+    color: #000;
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #d4f21b;
+    font-weight: 700;
+    border-width: 1px;
+    -webkit-transition: all .3s ease-out!important;
+    transition: all .3s ease-out!important;
+}
+.btn:hover, .btn:focus, .btn:active {
+    color: #000;
+    background-color: #ecff73;
+    border-color: #ecff73;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none!important;
+}
 /* Albums */
 .albums{
     background: grey;
     height: 100vh;
     padding: 100px 0;
     
-}
-.container-albums{
-   padding: 20px;
-   display: flex;
-   flex-flow: wrap;
-   justify-content: center;
-   
 }
 .disco{
     border: 1px solid rgb(70,69,69);
@@ -89,22 +88,19 @@ body{
     text-align: center;
     margin: 5px;
 }
+.image {
+    display: block;
+    width: 100%;
+}
+.thumbnail:hover{
+    transform: translateY(-4px);
+}
 /* Contact */
 .contact{
     background: #000;
     height: 100vh;
     padding: 300px 0;
 }
-/* .container-contact{
-    background:rgb(255, 255, 255, 0.1);
-    padding: 20px;
-    display: flex;
-    flex-flow: row wrap;
-    width: 80%;
-    margin: 0 auto;  
-    justify-content: center;
-    ;
-}*/
 .mail{    
     color: #fff;
     text-decoration: none;
@@ -200,32 +196,18 @@ body{
     .container-contact{
         width: 30%;
     }
-    /* .footer{
-        position: absolute;
-    } */
 }
 @media screen and (min-width:1023px){
-    .navbar{
-        flex-direction: row;
-        align-content: space-around;
-       
-    }    
+    
     .container-home{
         background-image: url(../img/masterhead-1023px.png);
-    }  
-    .albums{
-        height: 100vh;
-        padding: 300px 0;
-        
-    }
-    .container-albums{
-       width: 100%;
-    }
-    .disco{
-        width: 200px;
-        height: 200px;
-    }
+    }      
     .container-contact{
         width: 20%;
+    }
+}
+@media screen and (min-width:1400px){
+    .container-home{
+        background-image: url(../img/masthead.jpg);
     }
 }
