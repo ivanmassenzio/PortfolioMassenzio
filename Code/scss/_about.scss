@@ -29,30 +29,18 @@
     border-width: 1px;
     -webkit-transition: all .3s ease-out!important;
     transition: all .3s ease-out!important;
-    
-    &:hover{
-        color: #000;
-        background-color: #ecff73;
-        border-color: #ecff73;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        outline: none!important;
-    }
-
-    &:focus{
-        color: #000;
-        background-color: #ecff73;
-        border-color: #ecff73;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        outline: none!important;
-    }
-    &:active{
-        color: #000;
-        background-color: #ecff73;
-        border-color: #ecff73;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        outline: none!important;
-    }
 }
+    .btn:hover{
+        color: #000;
+        background-color: #ecff73;
+        border-color: #ecff73;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        outline: none!important;
+    }
+    .btn:focus{
+        @extend :hover;
+    }
+    .bnt:active{
+        @extend :hover;
+    }

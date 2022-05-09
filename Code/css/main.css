@@ -58,27 +58,14 @@ body {
   border-width: 1px;
   -webkit-transition: all 0.3s ease-out !important;
   transition: all 0.3s ease-out !important; }
-  .btn:hover {
-    color: #000;
-    background-color: #ecff73;
-    border-color: #ecff73;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    outline: none !important; }
-  .btn:focus {
-    color: #000;
-    background-color: #ecff73;
-    border-color: #ecff73;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    outline: none !important; }
-  .btn:active {
-    color: #000;
-    background-color: #ecff73;
-    border-color: #ecff73;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    outline: none !important; }
+
+.btn:hover, .btn:focus, .btn.bnt:active {
+  color: #000;
+  background-color: #ecff73;
+  border-color: #ecff73;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none !important; }
 
 /* Albums */
 .image {
@@ -108,16 +95,16 @@ body {
 .thumbnail {
   position: relative; }
 
-.thumbnail:hover {
+.thumbnail:hover, .thumbnail.btn:focus, .thumbnail.bnt:active {
   transform: translateY(-4px); }
 
-.img-container:hover .overlay {
+.img-container:hover .overlay, .img-container.btn:focus .overlay, .img-container.bnt:active .overlay {
   opacity: 1; }
 
 .social-media-icon {
   color: #fff; }
 
-.social-media-icon:hover {
+.social-media-icon:hover, .social-media-icon.btn:focus, .social-media-icon.bnt:active {
   color: #1b001d; }
 
 .social-media-icon i {
