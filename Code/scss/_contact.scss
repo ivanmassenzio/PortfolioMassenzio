@@ -1,0 +1,26 @@
+/* Contact */
+.bg-faded {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+.contact{
+    background: #000;
+    height: 100vh;
+    padding: 300px 0;
+}
+.mail{    
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+} 
+.contact-us{
+    font-weight: 700;
+    font-size: 40px;
+    color: $color-primary;
+}
+
+.copy{
+    font-size: 15px;
+    margin-left: 15px;
+    color: $color-primary;
+}

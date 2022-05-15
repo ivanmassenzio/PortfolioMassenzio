@@ -1,0 +1,19 @@
+/* Home */
+.container-home{
+    background-color: grey;
+    padding: 300px 0;    
+}
+.text-home{
+    font-size: 50px;
+    margin-left: 5px;
+    color: #fff;
+}
+.text-primario{
+    color: $color-primary;
+}
+.line {
+    margin-left: 5px;
+    margin-top: 5vh;
+    width: 25%;
+    border-top: 3px solid $color-primary;
+}
