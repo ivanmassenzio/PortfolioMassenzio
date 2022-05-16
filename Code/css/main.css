@@ -9,15 +9,36 @@
 body {
   font-family: 'Open Sans', sans-serif; }
 
+.title-home {
+  padding: 2px;
+  margin-left: 5px;
+  font-weight: 500;
+  font-size: 80px;
+  color: #fff; }
+
+.title-bio {
+  padding: 2px;
+  margin-left: 5px;
+  font-size: 30px;
+  color: #d4f21b; }
+
+.title-albums {
+  padding: 2px;
+  margin-left: 5px;
+  font-size: 30px;
+  color: #d4f21b; }
+
+.title-contact {
+  padding: 2px;
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #d4f21b; }
+
 /* Home */
 .container-home {
   background-color: grey;
   padding: 300px 0; }
-
-.text-home {
-  font-size: 50px;
-  margin-left: 5px;
-  color: #fff; }
 
 .text-primario {
   color: #d4f21b; }
@@ -123,11 +144,6 @@ body {
   color: #fff;
   text-decoration: none;
   font-size: 18px; }
-
-.contact-us {
-  font-weight: 700;
-  font-size: 40px;
-  color: #d4f21b; }
 
 .copy {
   font-size: 15px;
