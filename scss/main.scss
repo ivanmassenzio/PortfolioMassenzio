@@ -1,0 +1,23 @@
+// base 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;    
+    
+}
+@import "_variables";
+@import "_textos.scss";
+@import "_home";
+@import "_about";
+@import "_albums";
+@import "_contact";
+@import "_footer";
+@import "_mediaquery";

@@ -1,0 +1,26 @@
+// Armamos el estilo de los titulos modificando el color de la fuente segun sea necesario
+@each $titulo in $lista-titulos {
+    .title-#{$titulo}
+    {
+        padding: 2px;
+        margin-left: 5px;
+
+        @if ('.title-#{$titulo}' == '.title-bio' or '.title-#{$titulo}' == '.title-albums' )
+        {
+            font-size: 30px;
+            color: $color-primary;
+        }
+        @else if ('.title-#{$titulo}' == '.title-contact')
+        {
+            font-weight: 700;
+            font-size: 40px;
+            color: $color-primary;
+        }
+        @else
+        {
+            font-weight: 500;
+            font-size: 80px;
+            color: #fff;
+        }
+    }
+}

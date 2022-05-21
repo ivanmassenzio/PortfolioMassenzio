@@ -1,0 +1,42 @@
+/* Albums */
+.image {
+    display: block;
+    width: 100%; }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(213, 242, 28, 0.5); }
+  
+  .caption {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+  
+  .thumbnail {
+    position: relative; }
+  
+  .thumbnail:hover {
+    transform: translateY(-4px); }
+  
+  .img-container:hover .overlay {
+    opacity: 1; }
+  
+  .social-media-icon {
+    color: #fff; }
+  
+  .social-media-icon:hover {
+    color: #1b001d; }
+  
+  .social-media-icon i {
+    font-size: 48px; }

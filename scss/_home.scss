@@ -1,0 +1,14 @@
+/* Home */
+.container-home{
+    background-color: grey;
+    padding: 300px 0;    
+}
+.text-primario{
+    color: $color-primary;
+}
+.line {
+    margin-left: 5px;
+    margin-top: 5vh;
+    width: 25%;
+    border-top: 3px solid $color-primary;
+}
